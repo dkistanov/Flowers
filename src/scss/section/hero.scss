@@ -1,0 +1,134 @@
+// Стили для блока hero
+
+.hero {
+    background:linear-gradient(124deg, #fc5c7d,#7546a2);
+}
+
+.hero__content {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'Lato';
+    font-weight: 900;
+    font-style: normal;
+}
+
+.hero__obj {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: rem(70px);
+}
+
+.hero__logo-wrap {
+    width: rem(33px);
+    height: rem(33px);
+}
+
+.hero__logo-name {
+    font-size: rem(24px);
+    line-height: rem(25px);
+    letter-spacing: 2px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero__info {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: relative;
+    padding-bottom: rem(100px)
+}
+
+.hero__info-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: rem(700px);
+    height: rem(520px);
+}
+
+.hero__rose {
+    width: rem(700px);
+    height: rem(520px);
+}
+
+.hero__info-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    z-index: 10;
+}
+
+.hero__title {
+    font-size: rem(50px);
+    line-height: rem(35px);
+    padding-bottom: rem(26px);
+    text-transform: uppercase;
+    padding-top: rem(65px);
+}
+
+.hero__desc {
+    display: flex;
+    flex-direction: column;
+    font-size: rem(16px);
+    line-height: rem(22px);
+    align-items: flex-end;
+    text-transform: uppercase;
+    padding-bottom: rem(120px);
+    font-family: 'Lato';
+    font-weight: 700;
+    font-style: normal;
+}
+
+.hero__desc-top {
+    font-family: 'Lato';
+    font-weight: 100;
+    font-style: normal;
+}
+
+.last {
+    font-size: rem(24px);
+    line-height: rem(25px);
+    text-decoration:line-through;
+    color: #ae8cbc;
+    padding-right: rem(35px);
+    text-transform: uppercase;
+}
+
+.hero__price {
+    padding-bottom: rem(25px);
+    font-family: 'Lato';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.new {
+    font-size: rem(56px);
+    line-height: rem(59px);
+    text-transform: uppercase;
+}
+
+.currency_last {
+    font-size: rem(14px);
+}
+
+.currency_new {
+    font-size: rem(18px);
+}
+
+
+
+  

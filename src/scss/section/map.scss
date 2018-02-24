@@ -1,0 +1,68 @@
+// Стили карты
+
+
+.map {
+    background: url('../img/bg/map.jpg') no-repeat ;
+    background-size: cover;
+}
+
+.map__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.map__icon {
+    height: 2rem;
+}
+
+.map__title {
+    font-size: rem(30px);
+    line-height: rem(38px);
+    padding-top:  rem(52px);
+    font-family: 'Lato';
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase
+}
+
+.map__title-continue {
+    font-size: rem(30px);
+    line-height: rem(38px);
+    padding-bottom: rem(52px);
+    font-family: 'Lato';
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase
+}
+
+.map__list {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: rem(220px);
+}
+
+.map__item {
+    display: flex;
+    align-items: center;
+}
+
+.map__img-wrap {
+    width: 3rem;
+    height: 2rem;
+}
+
+.map__desc {
+    font-size: rem(16px);
+    line-height: rem(38px);
+    font-family: 'Lato';
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+// Стили для блока autor
+
+.autor__content {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.autor-left {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%
+}
+
+.autor-left-wrap {
+    width: 80%
+}
+
+.autor__title {
+    font-size: rem(30px);
+    line-height: rem(38px);
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-weight: 900;
+    font-style: normal;
+}
+
+.pink {
+    color: #fc5c7d;
+}
+
+.autor__name {
+    text-transform: uppercase;
+    font-size: rem(14px);
+    line-height: rem(38px);
+    font-family: 'Lato';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.autor__desc {
+    font-size: rem(16px);
+    line-height: rem(21px);
+    padding: rem(30px) 0 rem(15px) 0;
+    color: #000;
+    font-family: 'Lato';
+    font-weight:100;
+    font-style: normal;
+}
+
+.autor__feature {
+    font-size: rem(16px);
+    line-height: rem(21px);
+    color: #000;
+    padding-bottom: rem(52px);
+    font-family: 'Lato';
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+.autor-right {
+    width: 55%;
+    height: 100%;
+    margin-right: -70px;
+    flex: 1 1;
+}
+
+.autor__worker-wrapper {
+    margin-right: -70px;
+    width: 100%;
+    height: 100%;
+}
+
+.autor__worker {
+    width: 100%;
+    height: 100%;
+}

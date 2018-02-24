@@ -1,0 +1,15 @@
+.buttons {
+    padding: rem(25px) rem(100px);
+    height: rem(80px);
+    border-radius: 50px;
+    background: linear-gradient(127deg,#fe7f7d,#fe667d);
+    box-shadow: 0 14px 20px rgba($color: #000000, $alpha: 0.2);
+    font-size: rem(16px);
+    line-height: rem(17px);
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Lato';
+    font-weight: 100;
+    font-style: normal;
+}

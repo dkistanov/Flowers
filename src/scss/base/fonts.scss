@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Lato';
+    src:url('../fonts/Lato/Lato-Black.ttf') format(truetype),
+        url('../fonts/Lato/Lato-Black.woff') format(woff),
+        url('../fonts/Lato/Lato-Black.woff2') format(woff2),
+        url('../fonts/Lato/Lato-Black.eot') format(embedded-opentype),
+        url('../fonts/Lato/Lato-Black.svg') format(svg);
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src:url('../fonts/Lato/Lato-Regular.ttf') format(truetype),
+        url('../fonts/Lato/Lato-Regular.woff') format(woff),
+        url('../fonts/Lato/Lato-Regular.woff2') format(woff2),
+        url('../fonts/Lato/Lato-Regular.eot') format(embedded-opentype),
+        url('../fonts/Lato/Lato-Regular.svg') format(svg);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src:url('../fonts/Lato/Lato-Bold.ttf') format(truetype),
+        url('../fonts/Lato/Lato-Bold.woff') format(woff),
+        url('../fonts/Lato/Lato-Bold.woff2') format(woff2),
+        url('../fonts/Lato/Lato-Bold.eot') format(embedded-opentype),
+        url('../fonts/Lato/Lato-Bold.svg') format(svg);
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src:url('../fonts/Lato/Lato-Thin.ttf') format(truetype),
+        url('../fonts/Lato/Lato-Thin.woff') format(woff),
+        url('../fonts/Lato/Lato-Thin.woff2') format(woff2),
+        url('../fonts/Lato/Lato-Thin.eot') format(embedded-opentype),
+        url('../fonts/Lato/Lato-Thin.svg') format(svg);
+    font-style: normal;
+    font-weight: 100;
+}

@@ -1,1 +1,4 @@
-# Flowers
+# Gulp
+
+Установка: `npm i`.
+

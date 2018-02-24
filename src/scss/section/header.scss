@@ -1,0 +1,30 @@
+// Стили для блока header
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: rem(85px);
+    padding-bottom: rem(40px);
+}
+
+.header__tlph {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #fff;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header__tlph-num {
+    color: #fff;
+    line-height: rem(25px);
+    font-size: rem(24px);
+}
+
+.header__call {
+    line-height: rem(25px);
+    font-size: rem(12px);
+    text-transform: uppercase;
+}

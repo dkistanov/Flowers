@@ -1,0 +1,49 @@
+
+// ХЕЛПЕРЫ
+@import 'base/fonts.scss';
+@import 'base/vars.scss';
+@import 'base/mixins.scss';
+
+
+// Общие стили
+@import 'base/settings.scss';
+@import 'base/general.scss';
+
+
+// Секции
+
+/* Стили секции header */
+@import 'section/header.scss';
+/* Стили секции header */
+
+/* Стили секции footer */
+@import 'section/footer.scss';
+/* Стили секции footer */
+
+/* Стили секции hero */
+@import 'section/hero.scss';
+/* Стили секции hero */
+
+/* Стили секции autor */
+@import 'section/autor.scss';
+/* Стили секции autor */
+
+/* Стили секции catalog */
+@import 'section/catalog.scss';
+/* Стили секции catalog */
+
+/* Стили секции delivery */
+@import 'section/delivery.scss';
+/* Стили секции delivery */
+
+/* Стили секции reviews */
+@import 'section/reviews.scss';
+/* Стили секции reviews */
+
+/* Стили секции map */
+@import 'section/map.scss';
+/* Стили секции map */
+
+
+// Компоненты
+@import "common/common.scss"
