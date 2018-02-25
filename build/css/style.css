@@ -1037,6 +1037,7 @@ a {
   font-family: 'Lato';
   font-weight: 400;
   font-style: normal;
+  white-space: nowrap;
 }
 
 .delivery__list {
@@ -1086,7 +1087,7 @@ a {
 .delivery__img {
   width: 63.57143rem;
   height: 28.21429rem;
-  margin-bottom: -9.28571rem;
+  margin-bottom: -6.68571rem;
   margin-right: -5rem;
 }
 

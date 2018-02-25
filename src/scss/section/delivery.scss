@@ -33,6 +33,7 @@
     font-family: 'Lato';
     font-weight: 400;
     font-style: normal;
+    white-space: nowrap;
 }
 
 .delivery__list {
@@ -66,7 +67,7 @@
 .delivery__img {
     width: rem(890px);
     height: rem(395px);
-    margin-bottom: rem(-130px);
+    margin-bottom:-6.68571rem;
     margin-right: rem(-70px)
 }
 
