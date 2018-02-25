@@ -157,6 +157,7 @@
     box-shadow: 0 14px 40px rgba($color: #000000, $alpha: 0.3);
     transform: scaleX(1.1);
     transition: all .5s;
+    z-index: 100;
 }
 
 .slider__item:hover .slider__price.last {

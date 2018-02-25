@@ -971,6 +971,7 @@ a {
   -webkit-transition: all .5s;
   -o-transition: all .5s;
   transition: all .5s;
+  z-index: 100;
 }
 
 .slider__item:hover .slider__price.last {
