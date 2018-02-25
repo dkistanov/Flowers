@@ -81,8 +81,8 @@ function watch() {
   gulp.watch(paths.src + 'scss/*.scss', styles);
   gulp.watch(paths.src + 'js/*.js', scripts);
   gulp.watch(paths.src + '*.html', htmls);
-  gulp.watch(paths.src + 'fonts/**/*', fonts);
-  gulp.watch(paths.src + 'img/**/*', img);
+  gulp.watch(paths.src + 'fonts/**/*.*', fonts);
+  gulp.watch(paths.src + 'img/**/*.*', img);
 }
 
 function serve() {
