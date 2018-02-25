@@ -16,13 +16,13 @@
             <nav class="header__nav">
               <ul class="nav__list">
                 <li class="nav__item">
-                  Каталог
+                  <a href="#catalog" class="nav__link">Каталог</a>
                 </li>
                 <li class="nav__item">
-                  Доставка
+                  <a href="#delivery" class="nav__link">Доставка</a>
                 </li>
                 <li class="nav__item">
-                  Контакты
+                  <a href="#map" class="nav__link">Контакты</a>
                 </li>
               </ul>
             </nav>
@@ -95,7 +95,7 @@
         </div>
       </div>
     </section>
-    <section class="section catalog">
+    <section class="section catalog" id="catalog">
       <div class="container catalog_container">
         <div class="catalog__content">
           <div class="catalog__title-wrapper">
@@ -120,10 +120,10 @@
                 </div>
                 <span class="slider__name">Букет из 11 роз</span>
                 <p class="slider__desc">Идеальный подарок для любимой девушки</p>
-                <form action=""  class="slider__form">
+                <!-- <form action=""  class="slider__form">
                   <input type="text" class="slider__input" placeholder="Ваше имя">
                   <input type="text" class="slider__input" placeholder="+7912355662">
-                </form>
+                </form> -->
                 <button class="buttons small">Заказать доставку</button>
               </li>
               <li class="slider__item">
@@ -240,13 +240,10 @@
               </li>
             </ul>
           </div>
-          <div class="slider__handle-wrapper">
-            <div class="slider__handle" id="slider__handle"></div>
-          </div>
         </div>
       </div>
     </section>
-    <section class="section delivery">
+    <section class="section delivery" id="delivery">
       <div class="container">
         <div class="delivery__content">
           <div class="delivery-left">
@@ -282,7 +279,7 @@
           </h2>
           <div class="reviews__title-continue">Только отзывы реальных людей</div>
           <div class="reviews__objs">
-            <ul class="reviews__list">
+            <ul class="reviews__list" style="left:0">
               <li class="reviews__item">
                 <div class="reviews__info">
                   <div class="reviews__img-wrap">
@@ -342,13 +339,13 @@
             </ul>
           </div>
           <div class="reviews__slider-controls">
-            <div class="slider__control active"></div>
-            <div class="slider__control"></div>
+            <div class="slider__control active" data-test="0"></div>
+            <div class="slider__control" data-test="1"></div>
           </div>
         </div>
       </div>
     </section>
-    <section class="section map">
+    <section class="section map" id="map">
       <div class="container">
         <div class="map__content">
           <h2 class="map__title">Как нас
@@ -391,13 +388,13 @@
             <nav class="header__nav">
               <ul class="nav__list">
                 <li class="nav__item">
-                  Каталог
+                  <a href="#catalog" class="nav__link">Каталог</a>
                 </li>
                 <li class="nav__item">
-                  Доставка
+                  <a href="#delivery" class="nav__link">Доставка</a>
                 </li>
                 <li class="nav__item">
-                  Контакты
+                  <a href="#map" class="nav__link">Контакты</a>
                 </li>
               </ul>
             </nav>
